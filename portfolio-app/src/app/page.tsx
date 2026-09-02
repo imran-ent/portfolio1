@@ -204,7 +204,7 @@ export default function Home() {
       const body = encodeURIComponent(
         `Name: ${form.name}\nEmail: ${form.email}\nPhone: ${form.phone || "—"}\nPreferred call: ${form.callTime || "—"}\n\nMessage:\n${form.message}`
       );
-      window.location.href = `mailto:imran.dev.contact@gmail.com?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:mohammed2007imran@gmail.com?subject=${subject}&body=${body}`;
       setStatus("success");
       setTimeout(() => setStatus("idle"), 4000);
       return;
@@ -924,7 +924,7 @@ export default function Home() {
                   )}
                 </button>
                 <a
-                  href="mailto:imran.dev.contact@gmail.com"
+                  href="mailto:mohammed2007imran@gmail.com"
                   className="inline-flex items-center justify-center gap-2 rounded-full border border-white/15 px-6 py-3.5 text-sm font-medium text-white hover:bg-white hover:text-black transition"
                 >
                   <Mail className="h-4 w-4" /> EMAIL DIRECTLY
@@ -992,7 +992,7 @@ export default function Home() {
                 <a href="https://www.linkedin.com/in/mohamed-imran-a-b18aaa375/" target="_blank" className="block text-white/60 hover:text-white">
                   LinkedIn
                 </a>
-                <a href="mailto:imran.dev.contact@gmail.com" className="block text-white/60 hover:text-white">
+                <a href="mailto:mohammed2007imran@gmail.com" className="block text-white/60 hover:text-white">
                   Email
                 </a>
                 <a href="#contact" className="block text-white/60 hover:text-white">
